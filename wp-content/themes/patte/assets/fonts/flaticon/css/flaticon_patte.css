@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "flaticon_patte";
+    src: url("../fonts/flaticon_patte.ttf") format("truetype"), url("../fonts/flaticon_patte.woff") format("woff"), url("../fonts/flaticon_patte.woff2") format("woff2"), url("../fonts/flaticon_patte.eot") format("embedded-opentype"), url("../fonts/flaticon_patte.svg") format("svg");
+}
+
+i[class^="flaticon-"]:before,
+i[class*=" flaticon-"]:before {
+    font-family: flaticon_patte !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-user-profile:before {
+    content: "\f101";
+}
+
+.flaticon-horse-head:before {
+    content: "\f102";
+}
+
+.flaticon-shipped:before {
+    content: "\f103";
+}
+
+.flaticon-left-quote:before {
+    content: "\f104";
+}
+
+.flaticon-pawprint:before {
+    content: "\f105";
+}
+
+.flaticon-smartphone:before {
+    content: "\f106";
+}
+
+.flaticon-pet:before {
+    content: "\f107";
+}
+
+.flaticon-insurance:before {
+    content: "\f108";
+}
+
+.flaticon-headphone:before {
+    content: "\f109";
+}
+
+.flaticon-pet-food:before {
+    content: "\f10a";
+}
+
+.flaticon-shopping-basket:before {
+    content: "\f10b";
+}
+
+.flaticon-location:before {
+    content: "\f10c";
+}
+
+.flaticon-paw:before {
+    content: "\f10d";
+}
+
+.flaticon-walk-the-pet:before {
+    content: "\f10e";
+}
+
+.flaticon-pet-shop:before {
+    content: "\f10f";
+}
+
+.flaticon-dryer:before {
+    content: "\f110";
+}
+
+.flaticon-pet-grooming:before {
+    content: "\f111";
+}
+
+.flaticon-fish-food:before {
+    content: "\f112";
+}
+
+.flaticon-pet-food-1:before {
+    content: "\f113";
+}
+
+.flaticon-mail-inbox-app:before {
+    content: "\f114";
+}
+
+.flaticon-dog-house:before {
+    content: "\f115";
+}
+
+.flaticon-love:before {
+    content: "\f116";
+}
+
+.flaticon-cat:before {
+    content: "\f117";
+}
+
+.flaticon-dog:before {
+    content: "\f118";
+}
+
+.flaticon-veterinary:before {
+    content: "\f119";
+}
+
+.flaticon-adopt:before {
+    content: "\f11a";
+}
+
+.flaticon-pet-food-2:before {
+    content: "\f11b";
+}
+
+.flaticon-dog-food:before {
+    content: "\f11c";
+}
+
+.flaticon-adopt-1:before {
+    content: "\f11d";
+}
+
+.flaticon-chicken:before {
+    content: "\f11e";
+}
+
+.flaticon-paper-plane:before {
+    content: "\f11f";
+}
+
+.flaticon-envelope:before {
+    content: "\f120";
+}

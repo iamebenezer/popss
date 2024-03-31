@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "flaticon_patte_v2";
+    src: url("../fonts/flaticon_patte.ttf") format("truetype"), url("../fonts/flaticon_patte.woff") format("woff"), url("../fonts/flaticon_patte.woff2") format("woff2"), url("../fonts/flaticon_patte.eot") format("embedded-opentype"), url("../fonts/flaticon_patte.svg") format("svg");
+}
+
+i[class^="flaticon_v2-"]:before,
+i[class*=" flaticon_v2-"]:before {
+    font-family: flaticon_patte_v2 !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon_v2-happy:before {
+    content: "\f101";
+}
+
+.flaticon_v2-pet-food:before {
+    content: "\f102";
+}
+
+.flaticon_v2-pet-food-1:before {
+    content: "\f103";
+}
+
+.flaticon_v2-pet-shop:before {
+    content: "\f104";
+}
+
+.flaticon_v2-puppy:before {
+    content: "\f105";
+}
+
+.flaticon_v2-treats:before {
+    content: "\f106";
+}
+
+.flaticon_v2-pet-supplies:before {
+    content: "\f107";
+}
+
+.flaticon_v2-down-chevron:before {
+    content: "\f108";
+}
+
+.flaticon_v2-right-arrow:before {
+    content: "\f109";
+}
+
+.flaticon_v2-forward:before {
+    content: "\f10a";
+}
+
+.flaticon_v2-right-arrow-4:before {
+    content: "\f10b";
+}
