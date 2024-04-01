@@ -2685,7 +2685,10 @@
     <script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js" id="jquery-blockui-js" data-wp-strategy="defer"></script>
     <script type="text/javascript" src="/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js" id="js-cookie-js" data-wp-strategy="defer"></script>
     <script type="text/javascript" id="woocommerce-js-extra">
-
+         <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
+  />
         /* <![CDATA[ */
         var woocommerce_params = {
             "ajax_url": "\/wp-admin\/admin-ajax.php",
@@ -2960,26 +2963,61 @@
                                                                                                     font-family: headd;
                                                                                                     src: url(/IceCreamPartySolid.ttf);
                                                                                                 }
-                                                                                            </style>
-                                                                                            <h1 class="pxl-item-title" style="font-size: 60px; font-family: headd; text-shadow: 1px 2px 1px 1px #fff;" >
+                                                                                                
+                                                                                                @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .pulse {
+
+    animation: pulse 2s infinite;
+  }
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .floating {
+  
+    animation: float 2s infinite;
+  }
+                   
+                   </style>
+
+                                                                                            <h1 class="pxl-item-title pulse" style="font-size: 60px; font-family: headd; text-shadow: 1px 2px 1px 1px #fff;" >
                                                                                             Welcome to Pops bitrock    
                                                                                             </h1>
                                                                                             <p class="pxl-item-description">
                                                                                             
                                                                                             </p>
-                                                                                            <a class="btn btn-primary" href="https://rock-swap.io/#/swap?outputCurrency=0x5E1A1a5da980e27FF7A26BbFdC34282B619Bb144">
-                                    <span style="font-family: head; font-size: 30px;">Buy Pops</span>
+                                                                                            <a style="margin: 5px;" class="btn btn-primary" href="https://rock-swap.io/#/swap?outputCurrency=0x5E1A1a5da980e27FF7A26BbFdC34282B619Bb144">
+                                    <span style="font-family: head; font-size: 30px; ">Buy Pops</span>
                                 </a>
-                                <a class="btn btn-primary" href="https://www.dexview.com/bitrock/0x5E1A1a5da980e27FF7A26BbFdC34282B619Bb144">
-                                    <span style="font-family: head; font-size: 30px;">Chart</span>
+                                <a class="btn btn-primary" style="margin: 5px;"  href="https://www.dexview.com/bitrock/0x5E1A1a5da980e27FF7A26BbFdC34282B619Bb144">
+                                    <span style="font-family: head; font-size: 30px; ">Chart</span>
                                 </a>
-                                <a class="btn btn-primary" href="https://explorer.bit-rock.io/address/0x5E1A1a5da980e27FF7A26BbFdC34282B619Bb144">
-                                    <span style="font-family: head; font-size: 30px;">Token</span>
+                                <a class="btn btn-primary" style="margin: 5px;"  href="https://explorer.bit-rock.io/address/0x5E1A1a5da980e27FF7A26BbFdC34282B619Bb144">
+                                    <span style="font-family: head; font-size: 30px; ">Token</span>
                                 </a>
                                                                                         </div>
                                                                                         <div class="wrap-right">
                                                                                             <div class="pxl-slide-image-inner">
-                                                                                                <img decoding="async" class="pxl-slide-image" src="/1.png" alt="image-slide-1">
+                                                                                                <img decoding="async" class="pxl-slide-image floating" src="/1.png" alt="image-slide-1">
                                                                                                 <!-- <img decoding="async" class="pxl-slide-image-overlay" src="/4.png" alt="image-overlay-slide-1">
                                                                                             -->
                                                                                             </div>
@@ -3047,7 +3085,7 @@
                                                         <div class="elementor-widget-container" id="about">
                                                             <div class="pxl-heading">
                                                                 <div class="pxl-heading--inner">
-                                                                    <h1 style="font-size: 40px; " class="pxl-item--title divider-none  head style1" data-wow-delay="ms" data-wow-duration="1.2s">
+                                                                    <h1 style="font-size: 40px; " class="pulse pxl-item--title divider-none  head style1" data-wow-delay="ms" data-wow-duration="1.2s">
                                                                         About Pops Bitrock
                                                                     </h1>
                                                                 </div>
@@ -3098,7 +3136,7 @@ Lets all be a little more like Pops!
                                             data-id="50dce7b" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
 
                                         <div style="display: flex; justify-content: center; align-items: center;">
-                                            <h1 class="head" style="font-size: 40px;">Decentralisation</h1></div>
+                                            <h1 class="head pulse" style="font-size: 40px;">Decentralisation</h1></div>
                                             <div class="elementor-container elementor-column-gap-extended ">
                                                 
                                                 <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3297597 pxl-col-none pxl-column-none" data-id="3297597" data-element_type="column">
@@ -3188,7 +3226,7 @@ Lets all be a little more like Pops!
                                                             <div class="elementor-widget-container">
                                                                 <div class="pxl-heading">
                                                                     <div class="pxl-heading--inner" id="tax">
-                                                                        <h1 style="font-family: head; font-size: 40px;" class="pxl-item--title divider-none   style1" data-wow-delay="ms" data-wow-duration="1.2s">
+                                                                        <h1 style="font-family: head; font-size: 40px;" class="pxl-item--title divider-none  pulse style1" data-wow-delay="ms" data-wow-duration="1.2s">
                                                                             Taxes
                                                                         </h1>
                                                                     </div>
@@ -3345,7 +3383,7 @@ Anti-Jeet Tax will slowly decay over a number of days until reaching the standar
                                                                 <div class="pxl-heading">
                                                                     <div class="pxl-heading--inner">
                                                                         <div class="pxl-item--subtitle " data-wow-delay="ms" data-wow-duration="1.2s"><span>Find great path</span></div>
-                                                                        <h2 class="pxl-item--title divider-none   style1" data-wow-delay="ms" data-wow-duration="1.2s">
+                                                                        <h2 style="font-size: 40px;" class="pxl-item--title divider-none pulse head style1" data-wow-delay="ms" data-wow-duration="1.2s">
                                                                             Roadmap </h2>
                                                                     </div>
                                                                 </div>
@@ -3629,7 +3667,7 @@ Anti-Jeet Tax will slowly decay over a number of days until reaching the standar
                                                             <div class="elementor-widget-container">
                                                                 <div class="pxl-image-single pxl-image-single1 img-df  " data-wow-delay="ms" data-wow-duration="1.2s">
                                                                     <div class="pxl-item--inner">
-                                                                        <img loading="lazy" decoding="async" width="541" height="450" src="/7.png" class="no-lazyload attachment-full" alt="" /> </div>
+                                                                        <img loading="lazy" decoding="async" width="541" height="450" src="/7.png" class="pulse no-lazyload attachment-full" alt="" /> </div>
                                                                 </div>
                                                             </div>
                                                         </div>
